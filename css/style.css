@@ -1,7 +1,7 @@
 /* common */
 body {
   font-family: "Roboto", sans-serif;
-  font-size: 400;
+  font-weight: 400;
   color: rgba(67, 68, 85, 1);
   background-color: #ffffff;
   font-size: 16px;
@@ -44,21 +44,98 @@ a {
 .header-address {
   font-style: normal;
 }
+.address-item:active {
+  color: rgba(64, 75, 191, 1);
+}
 /* .address-item {
 }
 .address-item:hover,
 .address-item:focus {
 } */
-.address-item:active {
-  color: rgba(64, 75, 191, 1);
-}
+
 /* HEADER */
 
 /* SERVICE */
 .service {
+  background-color: rgba(46, 47, 66, 1);
+  color: rgba(255, 255, 255, 1);
+  letter-spacing: 1.12px;
 }
 .service-title {
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
 }
 .service-button {
+  color: inherit;
+  background-color: rgba(77, 90, 229, 1);
+  font-weight: 500;
+  letter-spacing: 0.64px;
+  cursor: pointer;
 }
+.service-button:hover,
+.service-button:focus {
+  background-color: rgba(64, 75, 191, 1);
+}
+
 /* SERVICE */
+
+/* FEATURES */
+.features {
+}
+.features-second-title {
+  color: rgba(46, 47, 66, 1);
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+/* FEATURES */
+/* TEAM */
+.team {
+  background-color: rgba(244, 244, 253, 1);
+}
+.team-section-title {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.111;
+}
+.team-item-image {
+}
+.team-item-title {
+  font-size: 20px;
+  line-height: 1.2;
+  font-weight: 500;
+}
+.team-item-text {
+}
+/* TEAM */
+
+/* PORTFOLIO */
+.portfolio-setion-title {
+  font-size: 36px;
+  line-height: 1.111;
+}
+.portfolio-item-image {
+}
+.portfolio-item-title {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+}
+.portfolio-item-text {
+}
+/* PORTFOLIO */
+
+/* FOOTER */
+.footer {
+  background-color: rgba(46, 47, 66, 1);
+}
+.footer-logo {
+  font-size: 18px;
+  line-height: 1.166;
+  color: #ffffff;
+}
+.footer-text {
+  color: #ffffff;
+}
+/* FOOTER */
