@@ -27,6 +27,7 @@ a {
 }
 .logo {
   font-family: "Raleway", sans-serif;
+  font-size: 18px;
   font-weight: 700;
   line-height: 1.166;
   text-transform: uppercase;
@@ -131,8 +132,6 @@ a {
   background-color: rgba(46, 47, 66, 1);
 }
 .footer-logo {
-  font-size: 18px;
-  line-height: 1.166;
   color: #ffffff;
 }
 .footer-text {
